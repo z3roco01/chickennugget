@@ -1,0 +1,9 @@
+{
+  "item.chickennugget.chicken_nugget":        "Pépite du Poulet",
+  "item.chickennugget.breading":              "Panure",
+  "item.chickennugget.knife":                 "Couteau",
+  "item.chickennugget.cooked_chicken_nugget": "Pépite du Poulet Cuite",
+  "item.chickennugget.chicken_piece":         "Pièce de Poulet",
+  "item.chickennugget.hammer":                "Marteau",
+  "block.chickennugget.cutting_board":        "Planche à Découper"
+}

@@ -1,0 +1,13 @@
+{
+  "item.chickennugget.chicken_nugget":        "Raw Chicken Nugget",
+  "item.chickennugget.cooked_chicken_nugget": "Cooked Chicken Nugget",
+  "item.chickennugget.breading":              "Breading",
+  "item.chickennugget.toast":                 "Toast",
+  "item.chickennugget.chicken_piece":         "Chicken Piece",
+  "item.chickennugget.knife":                 "Knife",
+  "item.chickennugget.hammer":                "Hammer",
+
+  "item.chickennugget.tooltips.ramen": "§8Suggested by @t_i_think",
+
+  "block.chickennugget.cutting_board": "Cutting Board"
+}

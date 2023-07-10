@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern" : [
+    "   ",
+    "  S",
+    "SSS"
+  ],
+  "key": {
+    "S":{
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "chickennugget:cutting_board",
+    "count": 1
+  }
+}

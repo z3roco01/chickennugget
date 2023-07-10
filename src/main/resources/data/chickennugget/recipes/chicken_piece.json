@@ -1,0 +1,13 @@
+{
+    "type": "chickennugget:cutting_board_recipe",
+    "onBoard": {
+        "item": "minecraft:chicken"
+    },
+    "inHand": {
+        "item": "chickennugget:knife"
+    },
+    "result": {
+        "item": "chickennugget:chicken_piece",
+        "amount": 3
+    }
+}

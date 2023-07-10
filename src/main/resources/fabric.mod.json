@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "chickennugget",
+	"version": "${version}",
+	"name": "Chicken Nugget",
+	"description": "chicke nugget",
+	"authors": [
+		"z3roco01"
+	],
+	"contact": {
+	},
+	"license": "Unlicense",
+	"icon": "assets/chickennugget/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"z3roco01.chickennugget.ChickenNugget"
+		],
+		"client": [
+			"z3roco01.chickennugget.ChickenNuggetClient"
+		]
+	},
+	"mixins": [
+		"chickennugget.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

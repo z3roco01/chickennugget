@@ -1,0 +1,13 @@
+{
+    "type": "chickennugget:cutting_board_recipe",
+    "onBoard": {
+        "item": "chickennugget:chicken_piece"
+    },
+    "inHand": {
+        "item": "chickennugget:breading"
+    },
+    "result": {
+        "item": "chickennugget:chicken_nugget",
+        "amount": 1
+    }
+}
