@@ -10,6 +10,7 @@ Chicken nugget is a cooking mod for minecraft fabric 1.20.1+
 - [X] Chicken Nugget
 - [X] Ramen ( suggested by [@t_i_think](https://twitter.com/t_i_think) on Twitter )
 - [ ] Fermented/Aged Foods ( suggested by [@realbagelcat](https://twitter.com/realbagelcat) on Twitter)
-- [ ] Hamburger, Fries, Cola and Takoyaki ( suggested by [@\_zeeZ17_](https://twitter.com/_zeeZ17_) on Twitter )
+- [ ] Hamburger, Fries, Cola ( suggested by [@\_zeeZ17_](https://twitter.com/_zeeZ17_) on Twitter )
+- [ ] Takoyaki ( suggested by [@\_zeeZ17_](https://twitter.com/_zeeZ17_) on Twitter )
 - [ ] Sushi ( suggested by [@Moxisshittier](https://twitter.com/Moxisshittier) on Twitter )
 
