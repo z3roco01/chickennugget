@@ -8,11 +8,13 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Optional;
 
 public class FoodComponents {
-    public static final FoodComponent ChickenNuggetFoodComponent       = mkMeatFoodComponent(5,0.6F, new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.15F);
-    public static final FoodComponent CookedChickenNuggetFoodComponent = mkMeatFoodComponent(12, 1.2F);
-    public static final FoodComponent ChickenPieceFoodComponent        = mkMeatFoodComponent(2, 0.3F, new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.3F);
-    public static final FoodComponent BreadingFoodComponent            = mkFoodComponent(3, 0.3F);
-    public static final FoodComponent ToastFoodComponent               = mkFoodComponent(10, 0.7F);
+    public static final FoodComponent ChickenNuggetFoodComponent       = mkMeatFoodComponent(5,  0.6f, new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.15f);
+    public static final FoodComponent CookedChickenNuggetFoodComponent = mkMeatFoodComponent(12, 1.2f);
+    public static final FoodComponent ChickenPieceFoodComponent        = mkMeatFoodComponent(2,  0.3f, new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.3f);
+    public static final FoodComponent BreadingFoodComponent            = mkFoodComponent(    3,  0.3f);
+    public static final FoodComponent ToastFoodComponent               = mkFoodComponent(    10, 0.7f);
+    public static final FoodComponent DryRamenFoodComponent            = mkFoodComponent(    6,  0.5f);
+    public static final FoodComponent CookedRamenFoodComponent         = mkFoodComponent(    9,  0.6f, new StatusEffectInstance(StatusEffects.ABSORPTION, 240, 1), 1.0f);
 
     private static FoodComponent mkFoodComponent(int hunger, float saturation) {
         return mkFoodComponentBuilder(hunger, saturation, null, null).build();

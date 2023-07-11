@@ -27,10 +27,7 @@ import java.util.Optional;
 
 public class CuttingBoard extends Block implements BlockEntityProvider {
     public CuttingBoard() {
-        super(FabricBlockSettings.create());
-        this.settings.hardness(2);
-        this.settings.strength(3);
-        this.settings.sounds(BlockSoundGroup.WOOD);
+        super(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).hardness(2).strength(3));
     }
 
     @Override
@@ -43,7 +40,19 @@ public class CuttingBoard extends Block implements BlockEntityProvider {
         SimpleInventory simpInv = new SimpleInventory(inv.getStack(0), handItemStack);
         Optional<CuttingBoardRecipe> match = world.getRecipeManager().getFirstMatch(CuttingBoardRecipe.Type.INSTANCE, simpInv, world);
 
-        if(match.isPresent() && match.get().getOutput().getItem() != Items.AIR) {
+        if(player.isSneaking() || match.isEmpty()) {
+            if(player.isSneaking() || !inv.getStack(0).isEmpty()) {
+                player.getInventory().offerOrDrop(inv.getStack(0).copy());
+                inv.setStack(0, new ItemStack(Items.AIR, 1));
+
+                player.playSound(SoundEvents.BLOCK_WOOL_PLACE, 1, 1);
+            }else if(inv.getStack(0).isEmpty()) {
+                inv.setStack(0, handItemStack.copyWithCount(1));
+                handItemStack.decrement(1);
+
+                player.playSound(SoundEvents.BLOCK_WOOL_PLACE, 1, 1);
+            }
+        }else if(match.get().getOutput().getItem() != Items.AIR) {
             inv.getStack(0).decrement(1);
             if(handItemStack.isDamageable()) {
                 handItemStack.setDamage(handItemStack.getDamage()+1);
@@ -59,18 +68,6 @@ public class CuttingBoard extends Block implements BlockEntityProvider {
 
             player.getInventory().offerOrDrop(match.get().getOutput().copy());
             world.updateListeners(pos, state, state, Block.NOTIFY_LISTENERS);
-        }else{
-            if(inv.getStack(0).isEmpty()) {
-                inv.setStack(0, handItemStack.copyWithCount(1));
-                handItemStack.decrement(1);
-
-                player.playSound(SoundEvents.BLOCK_WOOL_PLACE, 1, 1);
-            }else {
-                player.getInventory().offerOrDrop(inv.getStack(0).copy());
-                inv.setStack(0, new ItemStack(Items.AIR, 1));
-
-                player.playSound(SoundEvents.BLOCK_WOOL_PLACE, 1, 1);
-            }
         }
 
         world.updateListeners(pos, state, state, Block.NOTIFY_LISTENERS);

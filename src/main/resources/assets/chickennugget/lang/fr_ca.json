@@ -5,5 +5,15 @@
   "item.chickennugget.cooked_chicken_nugget": "Pépite du Poulet Cuite",
   "item.chickennugget.chicken_piece":         "Pièce de Poulet",
   "item.chickennugget.hammer":                "Marteau",
-  "block.chickennugget.cutting_board":        "Planche à Découper"
+  "item.chickennugget.toast":                 "Toast",
+  "item.chickennugget.dry_ramen":             "Ramen Sec",
+  "item.chickennugget.flour":                 "Farine",
+  "item.chickennugget.wet_ramen":             "Ramen Mouillé",
+  "item.chickennugget.cooked_ramen":          "Ramen Cuit",
+  "item.chickennugget.salt":                  "Sel",
+
+  "item.chickennugget.tooltips.ramen": "§8Suggéré par @t_i_think",
+
+  "block.chickennugget.cutting_board":     "Planche à Découper",
+  "block.chickennugget.mortar_and_pestle": "Mortier et Pilon"
 }

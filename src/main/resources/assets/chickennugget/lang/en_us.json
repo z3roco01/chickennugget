@@ -6,8 +6,14 @@
   "item.chickennugget.chicken_piece":         "Chicken Piece",
   "item.chickennugget.knife":                 "Knife",
   "item.chickennugget.hammer":                "Hammer",
+  "item.chickennugget.dry_ramen":             "Dry Ramen",
+  "item.chickennugget.flour":                 "Flour",
+  "item.chickennugget.wet_ramen":             "Wet Ramen",
+  "item.chickennugget.cooked_ramen":          "Cooked Ramen",
+  "item.chickennugget.salt":                  "Salt",
 
   "item.chickennugget.tooltips.ramen": "§8Suggested by @t_i_think",
 
-  "block.chickennugget.cutting_board": "Cutting Board"
+  "block.chickennugget.cutting_board":     "Cutting Board",
+  "block.chickennugget.mortar_and_pestle": "Mortar and Pestle"
 }

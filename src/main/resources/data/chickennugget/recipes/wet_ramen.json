@@ -1,0 +1,16 @@
+{
+  "type": "chickennugget:mortar_and_pestle_recipe",
+  "ingredient1": {
+    "item": "chickennugget:flour"
+  },
+  "ingredient2": {
+    "item": "chickennugget:salt"
+  },
+  "ingredient3": {
+    "item": "minecraft:water_bucket"
+  },
+  "result": {
+    "item": "chickennugget:wet_ramen",
+    "amount": 1
+  }
+}

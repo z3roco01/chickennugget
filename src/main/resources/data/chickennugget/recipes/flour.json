@@ -1,0 +1,10 @@
+{
+  "type": "chickennugget:mortar_and_pestle_same_recipe",
+  "ingredient": {
+    "item": "minecraft:wheat"
+  },
+  "result": {
+    "item": "chickennugget:flour",
+    "amount": 1
+  }
+}

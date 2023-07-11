@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "chickennugget:wet_ramen"
+  },
+  "result": "chickennugget:dry_ramen",
+  "experience": 0.15,
+  "cookingtime": 200
+}
