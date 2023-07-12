@@ -15,5 +15,6 @@
   "item.chickennugget.tooltips.ramen": "§8Suggéré par @t_i_think",
 
   "block.chickennugget.cutting_board":     "Planche à Découper",
-  "block.chickennugget.mortar_and_pestle": "Mortier et Pilon"
+  "block.chickennugget.mortar_and_pestle": "Mortier et Pilon",
+  "block.chickennugget.salt_block":        "Bloc de Sel"
 }

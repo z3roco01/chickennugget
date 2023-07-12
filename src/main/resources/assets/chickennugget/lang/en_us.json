@@ -15,5 +15,6 @@
   "item.chickennugget.tooltips.ramen": "§8Suggested by @t_i_think",
 
   "block.chickennugget.cutting_board":     "Cutting Board",
-  "block.chickennugget.mortar_and_pestle": "Mortar and Pestle"
+  "block.chickennugget.mortar_and_pestle": "Mortar and Pestle",
+  "block.chickennugget.salt_block":        "Salt Block"
 }
